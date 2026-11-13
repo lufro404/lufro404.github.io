@@ -3,236 +3,400 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personnel de Lucas Frontera Alloza, étudiant en administration des systèmes informatiques et des réseaux.">
+  <meta name="author" content="Lucas Frontera Alloza">
   <title>Lucas Frontera Alloza | Portfolio</title>
-  <meta name="description" content="Portfolio de Lucas Frontera Alloza, étudiant en administration des systèmes et réseaux, intéressé par les systèmes informatiques et les réseaux.">
-  <meta name="theme-color" content="#004D98">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="styles.css?v=20261113">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="logo" href="#accueil" aria-label="Retour à l'accueil">LF<span>.</span></a>
 
-  <a class="skip" href="#projets">Aller au contenu</a>
+      <div class="nav-actions">
+        <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="language-switch" aria-label="Choisir la langue">
+          <a href="/" lang="es">ES</a>
+          <a href="/en/" lang="en">EN</a>
+          <a href="/fr/" class="active" lang="fr" aria-current="page">FR</a>
+        </div>
+      </div>
 
-  <div class="strip">Portfolio · <b>Valence</b> · Systèmes et réseaux</div>
-
-  <header class="nav">
-    <div class="nav-in">
-      <a class="brand" href="#accueil">LUCAS <span>FRONTERA</span></a>
-
-      <nav>
+      <div class="nav-links" id="main-menu">
         <ul>
           <li><a href="#apropos">À propos</a></li>
           <li><a href="#projets">Projets</a></li>
           <li><a href="#competences">Compétences</a></li>
-          <li><a href="#parcours">Formation</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#formation">Formation</a></li>
+          <li><a href="#langues">Langues</a></li>
+          <li><a href="#contact" class="nav-contact">Contact</a></li>
         </ul>
-      </nav>
-
-      <div class="lang-switch">
-        <a href="/">ES</a>
-        <a href="/fr/" class="active" aria-current="page">FR</a>
       </div>
-
-      <a class="cta" href="#contact">Me contacter</a>
-    </div>
+    </nav>
   </header>
 
-  <main id="accueil">
-    <div class="wrap hero">
-      <div class="hero-grid">
-        <div>
-          <p class="kicker">Portfolio personnel</p>
-          <h1>Bonjour, je suis <em>Lucas.</em></h1>
-          <p class="lead">Étudiant en administration des systèmes et réseaux (ASIR), intéressé par l'administration des systèmes, les réseaux et les technologies informatiques.</p>
-
-          <div class="btns">
-            <a class="btn primary" href="#projets">Voir mes projets</a>
-            <a class="btn" href="#contact">Me contacter</a>
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">ÉTUDIANT EN ASIR · VALENCE</p>
+          <h1>Lucas Frontera <span>Alloza</span></h1>
+          <h2>Administration des systèmes informatiques et des réseaux</h2>
+          <p class="hero-description">
+            Étudiant en deuxième année d'ASIR, intéressé par l'administration des systèmes,
+            les réseaux, la cybersécurité et les technologies d'infrastructure.
+          </p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#projets">Voir les projets</a>
+            <a class="button button-outline" href="#contact">Me contacter</a>
           </div>
-
-          <p class="quote">« La programmation m'a appris à réfléchir. L'administration des systèmes m'apprend à faire fonctionner les choses. »</p>
+          <div class="hero-socials">
+            <a href="https://github.com/lufro404" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="mailto:fronteralucas05@protonmail.com">Email ↗</a>
+          </div>
         </div>
 
-        <div class="photo">
-          <img src="../foto.jpg" alt="Photo de Lucas Frontera Alloza">
+        <div class="hero-image-wrap">
+          <div class="hero-image-decoration"></div>
+          <img class="hero-image" src="../foto.jpg" alt="Portrait de Lucas Frontera Alloza">
+          <div class="hero-image-caption">
+            <span class="caption-dot"></span>
+            <span>Apprendre et créer</span>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="wrap">
-
-      <section id="apropos">
-        <p class="label"><b>01</b> / À propos</p>
-        <h2>Qui <em>suis-je ?</em></h2>
-
-        <div class="about">
-          Je suis étudiant en administration des systèmes et réseaux. Je possède des connaissances en environnements Windows et Linux, en programmation C, en HTML et CSS, ainsi que des bases en administration réseau. Ma formation précédente en programmation de jeux vidéo à l'ESAT m'a permis d'apprendre la programmation structurée, la logique informatique, les langages de balisage et des notions sur les bases de données et les systèmes d'exploitation.
-
-          <p>Je possède une bonne capacité à travailler en équipe, à communiquer efficacement et à m'adapter à de nouveaux environnements technologiques. Je souhaite continuer à développer mes compétences en administration des systèmes, réseaux et cybersécurité.</p>
+    <section class="section about-section" id="apropos">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAISONS CONNAISSANCE</p>
+          <h2>À propos de moi</h2>
         </div>
-      </section>
 
-      <section id="projets">
-        <p class="label"><b>02</b> / Projets</p>
-        <h2>Mes <em>projets.</em></h2>
-        <p class="sub">Projets réalisés au cours de ma formation, autour de la programmation et du développement web.</p>
+        <div class="about-grid">
+          <div class="about-main">
+            <p class="lead">
+              Je suis étudiant en deuxième année du cycle supérieur en administration
+              des systèmes informatiques et des réseaux (ASIR) à Enseñanzas Profesionales Sorolla.
+            </p>
+            <p>
+              Je m'intéresse particulièrement aux infrastructures informatiques, à
+              l'administration des serveurs, aux réseaux et à l'automatisation des services.
+              Au cours de ma formation, j'ai travaillé avec différents systèmes
+              d'exploitation, environnements virtualisés et services réseau.
+            </p>
+            <p>
+              Je suis une personne sérieuse et persévérante, motivée pour continuer à
+              apprendre et acquérir de l'expérience dans un environnement professionnel.
+            </p>
+          </div>
 
-        <div class="grid">
-          <article class="card">
-            <span class="num">01 — Programmation en C</span>
-            <h3>Space Invaders</h3>
-            <p>Développement individuel d'une reproduction du jeu Space Invaders en langage C. J'ai étudié le comportement des ennemis, leurs fréquences de tir, les scores attribués et l'apparition du vaisseau bonus afin de reproduire le plus fidèlement possible le jeu original.</p>
-            <div class="chips">
-              <span class="chip">C</span>
-              <span class="chip">Programmation structurée</span>
-              <span class="chip">Logique de jeu vidéo</span>
+          <aside class="about-card">
+            <div class="about-card-item">
+              <span class="about-card-label">Localisation</span>
+              <strong>Valence, Espagne</strong>
             </div>
-            <p class="num">Novembre 2024 – Décembre 2024</p>
+            <div class="about-card-item">
+              <span class="about-card-label">Formation actuelle</span>
+              <strong>2e année · ASIR</strong>
+            </div>
+            <div class="about-card-item">
+              <span class="about-card-label">Centres d'intérêt</span>
+              <strong>Systèmes · Réseaux · Cloud</strong>
+            </div>
+            <div class="about-card-item">
+              <span class="about-card-label">GitHub</span>
+              <strong><a href="https://github.com/lufro404" target="_blank" rel="noopener noreferrer">@lufro404 ↗</a></strong>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projets">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">EXPÉRIENCE PRATIQUE</p>
+          <h2>Projets</h2>
+          <p class="section-intro">
+            Quelques travaux et projets pratiques réalisés au cours de ma formation en ASIR.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <p class="project-type">Administration des systèmes · AWS</p>
+              <h3>Infrastructure AWS</h3>
+              <p>
+                Déploiement et administration d'instances EC2, configuration de la sécurité,
+                accès à distance, serveur web Apache, HTTPS et services de bases de données.
+              </p>
+              <div class="tag-list"><span>AWS</span><span>EC2</span><span>Linux</span><span>Apache</span></div>
+            </div>
           </article>
 
-          <article class="card">
-            <span class="num">02 — Développement web</span>
-            <h3>Site web personnel</h3>
-            <p>Création d'un site web personnel en HTML et CSS. Ce projet m'a permis de pratiquer la structure des documents HTML, la mise en forme avec CSS et l'organisation du contenu d'un site web.</p>
-            <div class="chips">
-              <span class="chip">HTML</span>
-              <span class="chip">CSS</span>
-              <span class="chip">Développement web</span>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <p class="project-type">Services réseau</p>
+              <h3>Samba AD DC</h3>
+              <p>
+                Configuration d'un contrôleur de domaine Samba, gestion des utilisateurs
+                et des groupes, et administration centralisée des ressources d'un réseau local.
+              </p>
+              <div class="tag-list"><span>Samba</span><span>Linux</span><span>DNS</span><span>Réseaux</span></div>
             </div>
-            <p class="num">Mars 2024 – Juin 2025</p>
-            <a href="https://lucasfrontera.neocities.org" target="_blank" rel="noopener">Voir le site web</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <p class="project-type">Virtualisation et conteneurs</p>
+              <h3>Services avec Docker</h3>
+              <p>
+                Déploiement d'applications avec des conteneurs, configuration des réseaux,
+                volumes persistants et services coordonnés avec Docker Compose.
+              </p>
+              <div class="tag-list"><span>Docker</span><span>Compose</span><span>Linux</span><span>Réseaux</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <div class="project-content">
+              <p class="project-type">Réseaux et sécurité</p>
+              <h3>Passerelle et sauvegardes</h3>
+              <p>
+                Travaux pratiques sur la configuration du routage, les règles de filtrage
+                du trafic et la planification des sauvegardes dans des environnements Linux.
+              </p>
+              <div class="tag-list"><span>Linux</span><span>Réseaux</span><span>Firewall</span><span>Sauvegardes</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">05</div>
+            <div class="project-content">
+              <p class="project-type">Administration des services</p>
+              <h3>Services Linux</h3>
+              <p>
+                Installation, configuration et maintenance de services réseau et
+                d'applications sur des systèmes Linux, ainsi que des tâches d'administration
+                et de diagnostic.
+              </p>
+              <div class="tag-list"><span>Debian</span><span>Linux</span><span>Apache</span><span>MariaDB</span></div>
+            </div>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="competences">
-        <p class="label"><b>03</b> / Compétences</p>
-        <h2>Mes <em>connaissances.</em></h2>
-        <p class="sub">Technologies et outils utilisés au cours de ma formation.</p>
-
-        <div class="tags">
-          <span class="tag">C</span>
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">Visual Studio Code</span>
-          <span class="tag">Linux</span>
-          <span class="tag">Windows</span>
-          <span class="tag">Administration réseau</span>
-          <span class="tag">Systèmes d'exploitation</span>
-          <span class="tag">Bases de données</span>
+    <section class="section skills-section" id="competences">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CONNAISSANCES TECHNIQUES</p>
+          <h2>Compétences</h2>
         </div>
-      </section>
 
-      <section id="parcours">
-        <p class="label"><b>04</b> / Formation</p>
-        <h2>Mon <em>parcours.</em></h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon">01</span>
+            <h3>Systèmes d'exploitation</h3>
+            <p>Installation, configuration et administration de systèmes Linux et Windows.</p>
+            <div class="tag-list"><span>Debian</span><span>Ubuntu</span><span>Windows</span></div>
+          </article>
 
-        <div class="tour">
-          <div class="row">
-            <div class="date">2026–<small>En cours</small></div>
-            <div>
-              <h3>Formation supérieure en administration des systèmes et réseaux (2e année)</h3>
-              <p>Enseñanzas Profesionales Sorolla · Valence, Espagne</p>
+          <article class="skill-card">
+            <span class="skill-icon">02</span>
+            <h3>Réseaux</h3>
+            <p>Adressage IP, subnetting, services réseau et configuration des équipements.</p>
+            <div class="tag-list"><span>TCP/IP</span><span>DNS</span><span>DHCP</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">03</span>
+            <h3>Virtualisation</h3>
+            <p>Création et administration de machines virtuelles et d'environnements de laboratoire.</p>
+            <div class="tag-list"><span>VirtualBox</span><span>VM</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">04</span>
+            <h3>Services et applications</h3>
+            <p>Déploiement et maintenance de serveurs web, bases de données et conteneurs.</p>
+            <div class="tag-list"><span>Apache</span><span>MariaDB</span><span>Docker</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">05</span>
+            <h3>Programmation et web</h3>
+            <p>Connaissances en programmation et développement de sites web.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>PHP</span><span>SQL</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">06</span>
+            <h3>Cloud</h3>
+            <p>Premiers pas dans le déploiement et l'administration d'infrastructures cloud.</p>
+            <div class="tag-list"><span>AWS</span><span>EC2</span><span>HTTPS</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="formation">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MON PARCOURS</p>
+          <h2>Formation</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">2026 — Aujourd'hui</span>
+            <div class="timeline-content">
+              <h3>Cycle supérieur en administration des systèmes informatiques et des réseaux</h3>
+              <p class="timeline-place">Enseñanzas Profesionales Sorolla</p>
+              <p>Deuxième année. Administration des systèmes, réseaux, services et bases de données.</p>
             </div>
-            <span class="pill">En cours</span>
-          </div>
+          </article>
 
-          <div class="row">
-            <div class="date">2025–26<small>1re année</small></div>
-            <div>
-              <h3>Formation supérieure en administration des systèmes et réseaux (ASIR)</h3>
-              <p>CEAC</p>
+          <article class="timeline-item">
+            <span class="timeline-date">2025 — 2026</span>
+            <div class="timeline-content">
+              <h3>Cycle supérieur en administration des systèmes informatiques et des réseaux</h3>
+              <p class="timeline-place">CEAC</p>
+              <p>Première année de la formation ASIR.</p>
             </div>
-            <span class="pill off">Terminée</span>
-          </div>
+          </article>
 
-          <div class="row">
-            <div class="date">2024–25<small>1re année</small></div>
-            <div>
-              <h3>Higher National Diploma (HND) en programmation de jeux vidéo</h3>
-              <p>Escuela Superior de Arte y Tecnología (ESAT) · Valence, Espagne</p>
+          <article class="timeline-item">
+            <span class="timeline-date">2024 — 2025</span>
+            <div class="timeline-content">
+              <h3>HND en programmation de jeux vidéo</h3>
+              <p class="timeline-place">ESAT</p>
+              <p>Première année. Formation en programmation et développement de jeux vidéo.</p>
             </div>
-            <span class="pill off">Terminée</span>
-          </div>
+          </article>
 
-          <div class="row">
-            <div class="date">Caxton<small>Scolarité</small></div>
-            <div>
-              <h3>Baccalauréat</h3>
-              <p>Caxton College</p>
+          <article class="timeline-item">
+            <span class="timeline-date">Formation antérieure</span>
+            <div class="timeline-content">
+              <h3>Enseignement secondaire et baccalauréat</h3>
+              <p class="timeline-place">Caxton College</p>
+              <p>Formation dans un environnement éducatif bilingue.</p>
             </div>
-            <span class="pill off">Terminé</span>
-          </div>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="activites">
-        <p class="label"><b>05</b> / Activités extrascolaires</p>
-        <h2>Au-delà de <em>l'informatique.</em></h2>
-
-        <div class="about">
-          <h3>Karaté</h3>
-          <p>Je pratique le karaté depuis septembre 2018 et j'ai atteint le niveau de ceinture marron. Cette activité m'a permis de développer ma discipline, ma persévérance et ma concentration, des qualités que j'applique également à mes études et à mes projets.</p>
-          <div class="chips">
-            <span class="chip">Depuis 2018</span>
-            <span class="chip">Ceinture marron</span>
-          </div>
+    <section class="section languages-section" id="langues">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">COMMUNICATION</p>
+          <h2>Langues</h2>
         </div>
-      </section>
 
-      <section id="langues">
-        <p class="label"><b>06</b> / Langues</p>
-        <h2>Mes <em>langues.</em></h2>
-
-        <div class="tags">
-          <span class="tag">Espagnol — langue maternelle</span>
-          <span class="tag">Anglais — B2/C1</span>
-          <span class="tag">Français — A2</span>
+        <div class="languages-grid">
+          <article class="language-card">
+            <span class="language-code">ES</span>
+            <div><h3>Espagnol</h3><p>Langue maternelle</p></div>
+          </article>
+          <article class="language-card">
+            <span class="language-code">EN</span>
+            <div><h3>Anglais</h3><p>B2 / C1</p></div>
+          </article>
+          <article class="language-card">
+            <span class="language-code">FR</span>
+            <div><h3>Français</h3><p>A2</p></div>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="objectif">
-        <p class="label"><b>07</b> / Objectif professionnel</p>
-        <h2>Mon prochain <em>objectif.</em></h2>
+    <section class="section goal-section" id="objectif">
+      <div class="container goal-content">
+        <p class="eyebrow">PROCHAINES ÉTAPES</p>
+        <h2>Mon objectif professionnel</h2>
+        <p>
+          Continuer à développer mes compétences en administration des systèmes,
+          réseaux et infrastructures, et avoir l'occasion de les mettre en pratique
+          dans un environnement professionnel où je pourrai continuer à apprendre
+          et à progresser.
+        </p>
+      </div>
+    </section>
 
-        <div class="about">
-          Je souhaite poursuivre mon parcours professionnel à Toulouse à partir de septembre 2027, dans le cadre d'une formation en alternance orientée vers les réseaux et la cybersécurité. Mon objectif est de développer mes compétences techniques au sein d'une entreprise et de participer à des projets concrets dans le domaine des infrastructures informatiques.
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">ÉCHANGEONS</p>
+          <h2>Et si nous travaillions ensemble ?</h2>
+          <p>
+            Je suis ouvert aux opportunités qui me permettront de continuer à apprendre,
+            de collaborer sur des projets et d'acquérir de l'expérience dans le secteur
+            technologique.
+          </p>
         </div>
-      </section>
 
-      <section id="contact">
-        <div class="contact">
-          <p class="label"><b>08</b> / Contact</p>
-          <h2>Parlons de <em>technologie.</em></h2>
-          <p>Pour me contacter ou en savoir plus sur ma formation et mes projets, vous pouvez utiliser les moyens suivants.</p>
-
-          <div class="links">
-            <a href="mailto:fronteralucas05@protonmail.com">E-mail</a>
-            <a href="tel:+34669400726">Téléphone</a>
-            <a href="https://github.com/lufro404" target="_blank" rel="noopener">GitHub</a>
-          </div>
+        <div class="contact-links">
+          <a href="mailto:fronteralucas05@protonmail.com">
+            <span>Email</span><strong>fronteralucas05@protonmail.com ↗</strong>
+          </a>
+          <a href="https://github.com/lufro404" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span><strong>github.com/lufro404 ↗</strong>
+          </a>
         </div>
-      </section>
-
-    </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <div class="wrap foot">
-      <span>© <span id="annee"></span> Lucas Frontera Alloza · Valence</span>
-      <a href="#accueil">Retour en haut ↑</a>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="logo" href="#accueil">LF<span>.</span></a>
+      <p>© 2026 Lucas Frontera Alloza. Tous droits réservés.</p>
+      <a href="#accueil" class="back-top">Retour en haut ↑</a>
     </div>
   </footer>
 
   <script>
-    document.getElementById('annee').textContent = new Date().getFullYear();
-  </script>
+    const menuButton = document.querySelector(".menu-toggle");
+    const menu = document.querySelector("#main-menu");
 
+    function closeMenu() {
+      menu.classList.remove("open");
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.setAttribute("aria-label", "Ouvrir le menu");
+    }
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+      menu.classList.toggle("open", !isOpen);
+      menuButton.setAttribute("aria-expanded", String(!isOpen));
+      menuButton.setAttribute("aria-label", isOpen ? "Ouvrir le menu" : "Fermer le menu");
+    });
+
+    menu.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", closeMenu);
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") closeMenu();
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 760) closeMenu();
+    });
+  </script>
 </body>
 </html>
