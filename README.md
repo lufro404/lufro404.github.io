@@ -1,69 +1,104 @@
 
-# Lucas Frontera Alloza — Portfolio
+# Lucas Frontera Alloza — Personal Portfolio
 
-Portfolio personal de Lucas Frontera Alloza, estudiante de Administración de Sistemas Informáticos en Red (ASIR), orientado a la administración de sistemas, redes y ciberseguridad.
+Personal portfolio website developed with HTML5 and CSS3 to present my education, technical skills, projects and professional interests.
 
-El proyecto está disponible en dos idiomas:
+🌐 **Live website:** https://lufro404.github.io/
 
-- **Español:** https://lufro404.github.io/
-- **Français:** https://lufro404.github.io/fr/
+## Languages
 
-## Tecnologías utilizadas
+The portfolio is available in three languages:
+
+- 🇪🇸 [Español](https://lufro404.github.io/)
+- 🇬🇧 [English](https://lufro404.github.io/en/)
+- 🇫🇷 [Français](https://lufro404.github.io/fr/)
+
+Users can switch between languages using the language selector in the navigation bar.
+
+## Features
+
+- Responsive design for desktop, tablet and mobile devices.
+- Mobile hamburger navigation menu.
+- Language selector: Spanish, English and French.
+- Personal introduction and professional profile.
+- Education and academic background.
+- Technical skills and technologies.
+- Projects and practical coursework.
+- Contact information and GitHub profile.
+- Consistent visual identity across all language versions.
+
+## Technologies
 
 - HTML5
 - CSS3
-- Diseño responsive
-- Git y GitHub
+- JavaScript
+- Google Fonts
 - GitHub Pages
 
-## Estructura del proyecto
+## Project structure
 
 ```text
 lufro404.github.io/
-├── README.md
+│
 ├── index.html
 ├── styles.css
 ├── foto.jpg
+│
+├── en/
+│   ├── index.html
+│   └── styles.css
+│
 └── fr/
     ├── index.html
     └── styles.css
 ```
 
-## Contenido
+### Main files
 
-El portfolio incluye las siguientes secciones:
+| File | Description |
+|---|---|
+| `index.html` | Main portfolio in Spanish |
+| `styles.css` | Main stylesheet shared by all versions |
+| `foto.jpg` | Personal profile photograph |
+| `en/index.html` | English version |
+| `en/styles.css` | Imports the main stylesheet |
+| `fr/index.html` | French version |
+| `fr/styles.css` | Imports the main stylesheet |
 
-- Presentación personal
-- Sobre mí
-- Proyectos realizados
-- Conocimientos técnicos
-- Formación académica
-- Idiomas
-- Objetivo profesional
-- Información de contacto
+## Design
 
-## Versiones lingüísticas
+The website uses a consistent colour palette:
 
-La página principal está escrita en español y dispone de una versión francesa en `/fr/`.
+- **Blue:** `#004D98`
+- **Garnet:** `#A50044`
+- **Gold:** `#EDBB00`
+- **Background:** `#F6F4EF`
 
-Ambas versiones incluyen un selector de idioma para facilitar la navegación entre ellas.
+Typography is provided by Google Fonts:
 
-## Diseño
+- Fraunces
+- Inter
 
-El diseño utiliza una paleta de colores inspirada en el FC Barcelona:
+The layout adapts to different screen sizes. On mobile devices, the navigation links are displayed through a hamburger menu.
 
-- Azul: `#004D98`
-- Granate: `#A50044`
-- Dorado: `#EDBB00`
-- Fondo: `#F6F4EF`
+## Deployment
 
-La interfaz está desarrollada con CSS propio y adaptada a dispositivos móviles.
+The website is hosted using **GitHub Pages**.
 
-## Publicación
+Repository:
 
-El portfolio está alojado mediante **GitHub Pages** y se actualiza automáticamente al publicar cambios en la rama principal del repositorio.
+https://github.com/lufro404/lufro404.github.io
 
-## Contacto
+Any changes pushed to the repository are published through GitHub Pages.
 
+## Contact
+
+**Lucas Frontera Alloza**
+
+- Email: fronteralucas05@protonmail.com
 - GitHub: https://github.com/lufro404
-- Portfolio: https://lufro404.github.io/
+- Location: Valencia, Spain
+
+---
+
+© 2026 Lucas Frontera Alloza. All rights reserved.
