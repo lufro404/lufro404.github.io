@@ -1,0 +1,399 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Lucas Frontera Alloza, IT Systems Administration student focused on systems, networks and infrastructure.">
+  <meta name="author" content="Lucas Frontera Alloza">
+  <title>Lucas Frontera Alloza | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Go to home">LF<span>.</span></a>
+
+      <div class="nav-actions">
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="language-switch" aria-label="Select language">
+          <a href="/" lang="es">ES</a>
+          <a href="/en/" class="active" lang="en" aria-current="page">EN</a>
+          <a href="/fr/" lang="fr">FR</a>
+        </div>
+      </div>
+
+      <div class="nav-links" id="main-menu">
+        <ul>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contact" class="nav-contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">IT SYSTEMS STUDENT · VALENCIA</p>
+          <h1>Lucas Frontera <span>Alloza</span></h1>
+          <h2>Networked Computer Systems Administration</h2>
+          <p class="hero-description">
+            Second-year IT Systems Administration student interested in system
+            administration, networking, cybersecurity and infrastructure technologies.
+          </p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#projects">View projects</a>
+            <a class="button button-outline" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/lufro404" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="mailto:fronteralucas05@protonmail.com">Email ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap">
+          <div class="hero-image-decoration"></div>
+          <img class="hero-image" src="../foto.jpg" alt="Portrait of Lucas Frontera Alloza">
+          <div class="hero-image-caption">
+            <span class="caption-dot"></span>
+            <span>Learning and building</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>About me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-main">
+            <p class="lead">
+              I am a second-year student of the Higher Vocational Training programme
+              in Networked Computer Systems Administration (ASIR) at Enseñanzas
+              Profesionales Sorolla.
+            </p>
+            <p>
+              I am particularly interested in IT infrastructure, server administration,
+              networking and service automation. During my studies, I have worked with
+              different operating systems, virtualised environments and network services.
+            </p>
+            <p>
+              I consider myself a consistent and responsible person, eager to keep learning
+              and gain experience in professional environments.
+            </p>
+          </div>
+
+          <aside class="about-card">
+            <div class="about-card-item">
+              <span class="about-card-label">Location</span>
+              <strong>Valencia, Spain</strong>
+            </div>
+            <div class="about-card-item">
+              <span class="about-card-label">Current studies</span>
+              <strong>2nd year · ASIR</strong>
+            </div>
+            <div class="about-card-item">
+              <span class="about-card-label">Interests</span>
+              <strong>Systems · Networks · Cloud</strong>
+            </div>
+            <div class="about-card-item">
+              <span class="about-card-label">GitHub</span>
+              <strong><a href="https://github.com/lufro404" target="_blank" rel="noopener noreferrer">@lufro404 ↗</a></strong>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">PRACTICAL EXPERIENCE</p>
+          <h2>Projects</h2>
+          <p class="section-intro">
+            Some of the assignments and practical projects completed during my ASIR studies.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <p class="project-type">Systems administration · AWS</p>
+              <h3>AWS infrastructure</h3>
+              <p>
+                Deployment and administration of EC2 instances, security configuration,
+                remote access, Apache web server, HTTPS and database services.
+              </p>
+              <div class="tag-list"><span>AWS</span><span>EC2</span><span>Linux</span><span>Apache</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <p class="project-type">Network services</p>
+              <h3>Samba AD DC</h3>
+              <p>
+                Configuration of a Samba domain controller, user and group administration,
+                and centralised resource management within a local network.
+              </p>
+              <div class="tag-list"><span>Samba</span><span>Linux</span><span>DNS</span><span>Networking</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <p class="project-type">Virtualisation and containers</p>
+              <h3>Services with Docker</h3>
+              <p>
+                Application deployment using containers, network configuration, persistent
+                volumes and multi-container services managed with Docker Compose.
+              </p>
+              <div class="tag-list"><span>Docker</span><span>Compose</span><span>Linux</span><span>Networking</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <div class="project-content">
+              <p class="project-type">Networking and security</p>
+              <h3>Gateway and backups</h3>
+              <p>
+                Practical work involving routing configuration, traffic filtering rules
+                and backup planning in Linux environments.
+              </p>
+              <div class="tag-list"><span>Linux</span><span>Networking</span><span>Firewall</span><span>Backups</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">05</div>
+            <div class="project-content">
+              <p class="project-type">Service administration</p>
+              <h3>Linux services</h3>
+              <p>
+                Installation, configuration and maintenance of network services and
+                applications on Linux systems, including administration and troubleshooting.
+              </p>
+              <div class="tag-list"><span>Debian</span><span>Linux</span><span>Apache</span><span>MariaDB</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">TECHNICAL KNOWLEDGE</p>
+          <h2>Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon">01</span>
+            <h3>Operating systems</h3>
+            <p>Installation, configuration and administration of Linux and Windows systems.</p>
+            <div class="tag-list"><span>Debian</span><span>Ubuntu</span><span>Windows</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">02</span>
+            <h3>Networking</h3>
+            <p>IP addressing, subnetting, network services and device configuration.</p>
+            <div class="tag-list"><span>TCP/IP</span><span>DNS</span><span>DHCP</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">03</span>
+            <h3>Virtualisation</h3>
+            <p>Creation and administration of virtual machines and laboratory environments.</p>
+            <div class="tag-list"><span>VirtualBox</span><span>VM</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">04</span>
+            <h3>Services and applications</h3>
+            <p>Deployment and maintenance of web servers, databases and containers.</p>
+            <div class="tag-list"><span>Apache</span><span>MariaDB</span><span>Docker</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">05</span>
+            <h3>Programming and web</h3>
+            <p>Programming fundamentals and website development.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>PHP</span><span>SQL</span></div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-icon">06</span>
+            <h3>Cloud</h3>
+            <p>Introduction to cloud infrastructure deployment and administration.</p>
+            <div class="tag-list"><span>AWS</span><span>EC2</span><span>HTTPS</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MY BACKGROUND</p>
+          <h2>Education</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">2026 — Present</span>
+            <div class="timeline-content">
+              <h3>Higher Vocational Training in Networked Computer Systems Administration</h3>
+              <p class="timeline-place">Enseñanzas Profesionales Sorolla</p>
+              <p>Second year. Systems administration, networking, services and databases.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-date">2025 — 2026</span>
+            <div class="timeline-content">
+              <h3>Higher Vocational Training in Networked Computer Systems Administration</h3>
+              <p class="timeline-place">CEAC</p>
+              <p>First year of the ASIR programme.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-date">2024 — 2025</span>
+            <div class="timeline-content">
+              <h3>HND in Video Game Programming</h3>
+              <p class="timeline-place">ESAT</p>
+              <p>First year. Programming and video game development studies.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-date">Previous education</span>
+            <div class="timeline-content">
+              <h3>Secondary education and Sixth Form</h3>
+              <p class="timeline-place">Caxton College</p>
+              <p>Education in a bilingual learning environment.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section languages-section" id="languages">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">COMMUNICATION</p>
+          <h2>Languages</h2>
+        </div>
+
+        <div class="languages-grid">
+          <article class="language-card">
+            <span class="language-code">ES</span>
+            <div><h3>Spanish</h3><p>Native</p></div>
+          </article>
+          <article class="language-card">
+            <span class="language-code">EN</span>
+            <div><h3>English</h3><p>B2 / C1</p></div>
+          </article>
+          <article class="language-card">
+            <span class="language-code">FR</span>
+            <div><h3>French</h3><p>A2</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section goal-section" id="goal">
+      <div class="container goal-content">
+        <p class="eyebrow">WHAT'S NEXT</p>
+        <h2>Career objective</h2>
+        <p>
+          To continue developing my skills in systems administration, networking and
+          infrastructure, and to apply them in a professional environment where I can
+          keep learning and growing.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">LET'S TALK</p>
+          <h2>Shall we work together?</h2>
+          <p>
+            I am open to opportunities to keep learning, collaborate on projects and
+            gain experience in the technology sector.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:fronteralucas05@protonmail.com">
+            <span>Email</span><strong>fronteralucas05@protonmail.com ↗</strong>
+          </a>
+          <a href="https://github.com/lufro404" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span><strong>github.com/lufro404 ↗</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="logo" href="#home">LF<span>.</span></a>
+      <p>© 2026 Lucas Frontera Alloza. All rights reserved.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-toggle");
+    const menu = document.querySelector("#main-menu");
+
+    function closeMenu() {
+      menu.classList.remove("open");
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.setAttribute("aria-label", "Open menu");
+    }
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+      menu.classList.toggle("open", !isOpen);
+      menuButton.setAttribute("aria-expanded", String(!isOpen));
+      menuButton.setAttribute("aria-label", isOpen ? "Open menu" : "Close menu");
+    });
+
+    menu.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", closeMenu);
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") closeMenu();
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 760) closeMenu();
+    });
+  </script>
+</body>
+</html>
