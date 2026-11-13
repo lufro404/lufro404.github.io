@@ -1,0 +1,237 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucas Frontera | Portfolio</title>
+<meta name="description" content="Portfolio de Lucas Frontera, étudiant en administration des systèmes et réseaux à Valence, Espagne.">
+<meta name="theme-color" content="#004D98">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#projets">Aller au contenu</a>
+
+<div class="strip">Portfolio · <b>Valence</b> · Systèmes et réseaux</div>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="#accueil">LUCAS <span>FRONTERA</span></a>
+    <nav>
+      <ul>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <a href="/">ES</a>
+      <a href="/fr/" class="active" aria-current="page">FR</a>
+    </div>
+    <a class="cta" href="#contact">Me contacter</a>
+  </div>
+</header>
+
+<main id="accueil">
+
+  <div class="wrap hero">
+    <div class="hero-grid">
+      <div>
+        <p class="kicker">Portfolio 2026</p>
+        <h1>Bonjour, je suis <em>Lucas.</em></h1>
+        <p class="lead">Étudiant en administration des systèmes informatiques et réseaux à Valence, en Espagne. J'aime mettre en place des serveurs, configurer des réseaux et déployer des services fonctionnels.</p>
+        <div class="btns">
+          <a class="btn primary" href="#projets">Voir mes projets</a>
+          <a class="btn" href="#contact">Me contacter</a>
+        </div>
+        <p class="quote">« La programmation m'a appris à réfléchir. L'administration des systèmes m'a appris à faire fonctionner les choses. »</p>
+      </div>
+      <div class="photo">
+        <img src="../foto.jpg" alt="Photo de Lucas Frontera" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Linux</span><span>Docker</span><span>Apache</span><span>Nginx</span><span>Samba AD</span><span>AWS</span><span>nftables</span><span>DNS et DHCP</span><span>Réseaux</span><span>PHP</span>
+      <span>Linux</span><span>Docker</span><span>Apache</span><span>Nginx</span><span>Samba AD</span><span>AWS</span><span>nftables</span><span>DNS et DHCP</span><span>Réseaux</span><span>PHP</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+    <section id="apropos">
+      <p class="label"><b>01</b> / À propos</p>
+      <h2>Qui <em>suis-je ?</em></h2>
+      <div class="about">
+        J'ai 20 ans et je vis à Valence, en Espagne. J'ai étudié au Caxton College jusqu'à l'âge de 18 ans. J'ai ensuite suivi la première année du diplôme supérieur en administration des systèmes informatiques et réseaux (ASIR) au CEAC, et je suis actuellement en deuxième année à Enseñanzas Profesionales Sorolla. Auparavant, j'ai étudié pendant un an la programmation de jeux vidéo à l'ESAT, où j'ai également effectué un stage dans les domaines des réseaux, de la virtualisation et de l'administration des systèmes. Cette combinaison entre programmation et administration informatique correspond particulièrement à mes centres d'intérêt.
+      </div>
+    </section>
+
+    <section id="projets">
+      <p class="label"><b>02</b> / Projets</p>
+      <h2>Ce que j'ai <em>réalisé.</em></h2>
+      <p class="sub">Travaux pratiques réalisés dans le cadre de ma formation, sur des machines virtuelles et dans le cloud.</p>
+
+      <div class="grid">
+        <article class="card">
+          <span class="num">01 — Cloud</span>
+          <h3>Serveur web sur AWS</h3>
+          <p>Déploiement d'une instance EC2 avec Ubuntu Server, adresse IP Elastic, Apache avec HTTPS (Let's Encrypt), redirection HTTPS et en-têtes de sécurité.</p>
+          <div class="chips"><span class="chip">AWS</span><span class="chip">Apache</span><span class="chip">HTTPS</span></div>
+        </article>
+
+        <article class="card">
+          <span class="num">02 — Domaine</span>
+          <h3>Domaine avec Samba AD DC</h3>
+          <p>Configuration d'un contrôleur de domaine Samba, de clients Windows 11, administration avec RSAT, DHCP avec deux VLAN et partage de ressources à l'aide de GPO.</p>
+          <div class="chips"><span class="chip">Samba</span><span class="chip">RSAT</span><span class="chip">GPO</span></div>
+        </article>
+
+        <article class="card">
+          <span class="num">03 — Conteneurs</span>
+          <h3>Services avec Docker</h3>
+          <p>Déploiement de WordPress, LAMP, d'un proxy inverse avec Nginx, PostgreSQL et pgAdmin, Nextcloud, OnlyOffice et Mailcow avec Docker Compose.</p>
+          <div class="chips"><span class="chip">Docker</span><span class="chip">Compose</span><span class="chip">Nginx</span></div>
+        </article>
+
+        <article class="card">
+          <span class="num">04 — Réseaux et sauvegardes</span>
+          <h3>Passerelle et sauvegardes</h3>
+          <p>Configuration d'une passerelle avec nftables et SNAT, d'un proxy inverse, d'un RAID 1 logiciel avec mdadm, d'images système avec Clonezilla et de sauvegardes chiffrées avec Duplicity.</p>
+          <div class="chips"><span class="chip">nftables</span><span class="chip">mdadm</span><span class="chip">Duplicity</span></div>
+        </article>
+
+        <article class="card">
+          <span class="num">05 — Serveurs réseau</span>
+          <h3>Services sous Linux</h3>
+          <p>Configuration du DDNS et du DHCP avec BIND9, d'un serveur de messagerie avec Postfix, Dovecot et Roundcube, ainsi que d'une messagerie instantanée avec Ejabberd.</p>
+          <div class="chips"><span class="chip">BIND9</span><span class="chip">Postfix</span><span class="chip">Ejabberd</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="competences">
+      <p class="label"><b>03</b> / Compétences</p>
+      <h2>Les outils avec <em>lesquels je travaille.</em></h2>
+      <div class="tags">
+        <span class="tag">Linux (Ubuntu / Debian)</span>
+        <span class="tag">Windows Server / Windows 11</span>
+        <span class="tag">Apache</span>
+        <span class="tag">Nginx</span>
+        <span class="tag">Docker et Docker Compose</span>
+        <span class="tag">Samba AD DC</span>
+        <span class="tag">DHCP / DNS (BIND9)</span>
+        <span class="tag">nftables / SNAT</span>
+        <span class="tag">SSH et sécurité</span>
+        <span class="tag">AWS EC2</span>
+        <span class="tag">VirtualBox</span>
+        <span class="tag">PHP</span>
+        <span class="tag">Bash</span>
+      </div>
+    </section>
+
+    <section id="parcours">
+      <p class="label"><b>04</b> / Parcours</p>
+      <h2>Mon <em>parcours.</em></h2>
+      <div class="tour">
+
+        <div class="row">
+          <div class="date">ASIR<small>2e année</small></div>
+          <div>
+            <h3>Diplôme supérieur en administration des systèmes informatiques et réseaux</h3>
+            <p>Enseñanzas Profesionales Sorolla · Valence, Espagne</p>
+          </div>
+          <span class="pill">En cours</span>
+        </div>
+
+        <div class="row">
+          <div class="date">ASIR<small>1re année</small></div>
+          <div>
+            <h3>Diplôme supérieur en administration des systèmes informatiques et réseaux</h3>
+            <p>CEAC · Valence, Espagne</p>
+          </div>
+          <span class="pill off">Terminé</span>
+        </div>
+
+        <div class="row">
+          <div class="date">ESAT<small>Stage</small></div>
+          <div>
+            <h3>Stage en réseaux, virtualisation et administration des systèmes</h3>
+            <p>ESAT · Valence, Espagne</p>
+          </div>
+          <span class="pill off">Terminé</span>
+        </div>
+
+        <div class="row">
+          <div class="date">ESAT<small>1 an</small></div>
+          <div>
+            <h3>Programmation de jeux vidéo</h3>
+            <p>ESAT · Valence, Espagne</p>
+          </div>
+          <span class="pill off">Terminé</span>
+        </div>
+
+        <div class="row">
+          <div class="date">Caxton<small>Jusqu'à 18 ans</small></div>
+          <div>
+            <h3>Études secondaires</h3>
+            <p>Caxton College · Puçol, Valence, Espagne</p>
+          </div>
+          <span class="pill off">Terminé</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="langues">
+      <p class="label"><b>05</b> / Langues</p>
+      <h2>Mes <em>langues.</em></h2>
+      <div class="tags">
+        <span class="tag">Espagnol — langue maternelle</span>
+        <span class="tag">Anglais — niveau avancé</span>
+        <span class="tag">Français — A2/B1, en cours d'apprentissage</span>
+      </div>
+    </section>
+
+    <section id="objectif">
+      <p class="label"><b>06</b> / Objectif professionnel</p>
+      <h2>Mon projet <em>en France.</em></h2>
+      <div class="about">
+        Je souhaite poursuivre mon parcours professionnel en France et recherche une formation en alternance dans les domaines des réseaux et de la cybersécurité à Toulouse, à partir de septembre 2027. Mon objectif est de développer mes compétences techniques dans un environnement professionnel et de contribuer à des projets concrets.
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <p class="label"><b>07</b> / Contact</p>
+        <h2>Contactez-moi, <em>avec plaisir.</em></h2>
+        <p>Si mon profil vous intéresse, n'hésitez pas à me contacter. Je serai ravi d'échanger avec vous.</p>
+        <div class="links">
+          <a href="mailto:fronteralucas05@protonmail.com">E-mail</a>
+          <a href="https://github.com/lufro404" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="annee"></span> Lucas Frontera · Valence</span>
+    <a href="#accueil">Retour en haut ↑</a>
+  </div>
+</footer>
+
+<script>
+document.getElementById('annee').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
