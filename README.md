@@ -73,28 +73,6 @@ The portfolio includes practical projects developed during my ASIR studies:
 - English: C1.
 - French: B1.
 
-## Deployment
-
-This portfolio is hosted using GitHub Pages.
-
-To run it locally:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/lufro404/lufro404.github.io.git
-   ```
-
-2. Open the project folder:
-
-   ```bash
-   cd lufro404.github.io
-   ```
-
-3. Open `index.html` in your browser.
-
-No additional dependencies or build tools are required.
-
 ## Contact
 
 - **Email:** fronteralucas05@protonmail.com
