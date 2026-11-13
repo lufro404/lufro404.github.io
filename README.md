@@ -1,84 +1,68 @@
 # Lucas Frontera Alloza — Personal Portfolio
 
-Personal portfolio developed with **HTML5 and CSS3**, designed to present my education, technical skills, practical projects and professional interests.
+Personal portfolio website showcasing my education, technical skills, projects and professional interests in IT systems administration, networking and cloud infrastructure.
 
-🌐 **Live website:** [https://lufro404.github.io](https://lufro404.github.io)
+**Website:** [lufro404.github.io](https://lufro404.github.io)
 
-## About me
+## Languages
 
-I am a second-year student of Networked Computer Systems Administration (ASIR) at Enseñanzas Profesionales Sorolla, in Valencia, Spain.
+The portfolio is available in three languages:
 
-I am particularly interested in:
+- **Spanish:** Main version (`/`)
+- **English:** `/en/`
+- **French:** `/fr/`
 
-- Systems administration and Linux environments.
-- Computer networks and infrastructure.
-- Cloud computing and AWS.
-- Cybersecurity.
-- Server deployment and service management.
+Each version includes a language selector to switch between them.
 
-## Features
+## Sections
 
-- Three language versions: Spanish, English and French.
-- Responsive design for desktop, tablet and mobile devices.
-- Mobile navigation with a hamburger menu.
-- Language selector (ES / EN / FR).
-- Personal introduction and professional profile.
-- Technical skills and practical projects.
-- Education timeline.
-- Contact information and GitHub profile.
-- Consistent visual identity across all language versions.
+- **About me:** Personal introduction and current studies.
+- **Projects:** Practical work involving AWS, Samba AD DC, Docker, Linux services and network administration.
+- **Skills:** Operating systems, networking, virtualization, services, web development and cloud technologies.
+- **Education:** Academic background and training.
+- **Languages:** Spanish, English and French.
+- **Contact:** Email and GitHub links.
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts (Fraunces and Inter)
 
 ## Project structure
 
 ```text
 lufro404.github.io/
 │
-├── index.html          # Spanish version
-├── styles.css          # Main stylesheet
-├── foto.jpg            # Profile picture
+├── index.html
+├── styles.css
+├── foto.jpg
 │
 ├── en/
-│   └── index.html      # English version
+│   └── index.html
 │
 └── fr/
-    └── index.html      # French version
+    └── index.html
 ```
 
-The English and French versions reuse the main stylesheet located in the root directory.
+## Design
 
-## Technologies
+The website follows a clean, responsive design combining editorial typography with technical details.
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Website structure |
-| CSS3 | Styling and responsive layout |
-| JavaScript | Mobile navigation |
-| Google Fonts | Typography (Fraunces and Inter) |
-| Git | Version control |
-| GitHub Pages | Website hosting |
+Key features include:
 
-## Featured projects
+- Responsive layout for desktop and mobile devices.
+- Mobile navigation with a hamburger menu.
+- Multilingual navigation.
+- Project cards and technical skill sections.
+- Accessible navigation and reduced-motion support.
 
-The portfolio includes practical projects developed during my ASIR studies:
+## Author
 
-1. **AWS Infrastructure:** EC2 instances, Linux administration, Apache, HTTPS and database services.
-2. **Samba Active Directory Domain Controller:** Domain management, users, groups and DNS.
-3. **Docker Services:** Containers, networks, persistent volumes and Docker Compose.
-4. **Gateway and Backups:** Routing, traffic filtering and backup configuration.
-5. **Linux Services:** Debian, Apache, MariaDB, service administration and troubleshooting.
+**Lucas Frontera Alloza**
 
-## Languages
+IT Systems Administration and Networking student based in Valencia, Spain.
 
-- Spanish: Native.
-- English: C1.
-- French: B1.
-
-## Contact
-
-- **Email:** fronteralucas05@protonmail.com
-- **GitHub:** [@lufro404](https://github.com/lufro404)
-- **Portfolio:** [lufro404.github.io](https://lufro404.github.io)
-
----
-
-© 2026 Lucas Frontera Alloza. All rights reserved.
+- GitHub: [@lufro404](https://github.com/lufro404)
+- Email: fronteralucas05@protonmail.com
