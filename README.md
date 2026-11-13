@@ -1,103 +1,105 @@
-
 # Lucas Frontera Alloza — Personal Portfolio
 
-Personal portfolio website developed with HTML5 and CSS3 to present my education, technical skills, projects and professional interests.
+Personal portfolio developed with **HTML5 and CSS3**, designed to present my education, technical skills, practical projects and professional interests.
 
-🌐 **Live website:** https://lufro404.github.io/
+🌐 **Live website:** [https://lufro404.github.io](https://lufro404.github.io)
 
-## Languages
+## About me
 
-The portfolio is available in three languages:
+I am a second-year student of Networked Computer Systems Administration (ASIR) at Enseñanzas Profesionales Sorolla, in Valencia, Spain.
 
-- 🇪🇸 [Español](https://lufro404.github.io/)
-- 🇬🇧 [English](https://lufro404.github.io/en/)
-- 🇫🇷 [Français](https://lufro404.github.io/fr/)
+I am particularly interested in:
 
-Users can switch between languages using the language selector in the navigation bar.
+- Systems administration and Linux environments.
+- Computer networks and infrastructure.
+- Cloud computing and AWS.
+- Cybersecurity.
+- Server deployment and service management.
 
 ## Features
 
+- Three language versions: Spanish, English and French.
 - Responsive design for desktop, tablet and mobile devices.
-- Mobile hamburger navigation menu.
-- Language selector: Spanish, English and French.
+- Mobile navigation with a hamburger menu.
+- Language selector (ES / EN / FR).
 - Personal introduction and professional profile.
-- Education and academic background.
-- Technical skills and technologies.
-- Projects and practical coursework.
+- Technical skills and practical projects.
+- Education timeline.
 - Contact information and GitHub profile.
 - Consistent visual identity across all language versions.
-
-## Technologies
-
-- HTML5
-- CSS3
-- JavaScript
-- Google Fonts
-- GitHub Pages
 
 ## Project structure
 
 ```text
 lufro404.github.io/
 │
-├── index.html
-├── styles.css
-├── foto.jpg
+├── index.html          # Spanish version
+├── styles.css          # Main stylesheet
+├── foto.jpg            # Profile picture
 │
 ├── en/
-│   ├── index.html
-│   └── styles.css
+│   └── index.html      # English version
 │
 └── fr/
-    ├── index.html
-    └── styles.css
+    └── index.html      # French version
 ```
 
-### Main files
+The English and French versions reuse the main stylesheet located in the root directory.
 
-| File | Description |
+## Technologies
+
+| Technology | Purpose |
 |---|---|
-| `index.html` | Main portfolio in Spanish |
-| `styles.css` | Main stylesheet shared by all versions |
-| `foto.jpg` | Personal profile photograph |
-| `en/index.html` | English version |
-| `en/styles.css` | Imports the main stylesheet |
-| `fr/index.html` | French version |
-| `fr/styles.css` | Imports the main stylesheet |
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive layout |
+| JavaScript | Mobile navigation |
+| Google Fonts | Typography (Fraunces and Inter) |
+| Git | Version control |
+| GitHub Pages | Website hosting |
 
-## Design
+## Featured projects
 
-The website uses a consistent colour palette:
+The portfolio includes practical projects developed during my ASIR studies:
 
-- **Blue:** `#004D98`
-- **Garnet:** `#A50044`
-- **Gold:** `#EDBB00`
-- **Background:** `#F6F4EF`
+1. **AWS Infrastructure:** EC2 instances, Linux administration, Apache, HTTPS and database services.
+2. **Samba Active Directory Domain Controller:** Domain management, users, groups and DNS.
+3. **Docker Services:** Containers, networks, persistent volumes and Docker Compose.
+4. **Gateway and Backups:** Routing, traffic filtering and backup configuration.
+5. **Linux Services:** Debian, Apache, MariaDB, service administration and troubleshooting.
 
-Typography is provided by Google Fonts:
+## Languages
 
-- Fraunces
-- Inter
-
-The layout adapts to different screen sizes. On mobile devices, the navigation links are displayed through a hamburger menu.
+- Spanish: Native.
+- English: C1.
+- French: B1.
 
 ## Deployment
 
-The website is hosted using **GitHub Pages**.
+This portfolio is hosted using GitHub Pages.
 
-Repository:
+To run it locally:
 
-https://github.com/lufro404/lufro404.github.io
+1. Clone the repository:
 
-Any changes pushed to the repository are published through GitHub Pages.
+   ```bash
+   git clone https://github.com/lufro404/lufro404.github.io.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd lufro404.github.io
+   ```
+
+3. Open `index.html` in your browser.
+
+No additional dependencies or build tools are required.
 
 ## Contact
 
-**Lucas Frontera Alloza**
-
-- Email: fronteralucas05@protonmail.com
-- GitHub: https://github.com/lufro404
-- Location: Valencia, Spain
+- **Email:** fronteralucas05@protonmail.com
+- **GitHub:** [@lufro404](https://github.com/lufro404)
+- **Portfolio:** [lufro404.github.io](https://lufro404.github.io)
 
 ---
 
