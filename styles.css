@@ -88,11 +88,6 @@ h1 em{font-style:italic;color:var(--blue);font-weight:500}
 .quote{margin-top:48px;border-left:4px solid var(--gold);padding-left:18px;font-family:var(--serif);font-style:italic;font-size:1.25rem;max-width:560px}
 
 /* banda en movimiento */
-.marquee{background:var(--garnet);color:#fff;overflow:hidden;white-space:nowrap;padding:14px 0;border-block:3px solid var(--gold)}
-.marquee-track{display:inline-flex;gap:40px;animation:scroll 40s linear infinite;padding-left:40px}
-.marquee span{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em}
-.marquee span::after{content:"✦";margin-left:40px;color:var(--gold)}
-@keyframes scroll{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.marquee-track{animation:none}html{scroll-behavior:auto}}
 
 /* secciones */
