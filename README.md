@@ -76,12 +76,6 @@ Key features include:
 - CV download link integrated in the contact section.
 - Accessible navigation and reduced-motion support.
 
-## Updating the website
-
-1. Edit the files in the repository (or upload the new versions with **Add file → Upload files**).
-2. Commit the changes to the `main` branch.
-3. GitHub Pages publishes the new version automatically. Check the **Actions** tab, and wait for the deployment to finish before making further changes.
-
 ## Author
 
 **Lucas Frontera Alloza**
